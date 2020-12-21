@@ -1,0 +1,27 @@
+name: flutter_theme_mode_selector_example
+description: Flutter ThemeMode Selector Example
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+repository: 'https://github.com/Riscait/flutter_theme_mode_selector_example'
+
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  flutter_hooks: ^0.15.0
+  flutter_state_notifier: ^0.6.1
+  hooks_riverpod: ^0.12.1
+  shared_preferences: ^0.5.12+4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic_mono: any
+
+flutter:
+  uses-material-design: true
